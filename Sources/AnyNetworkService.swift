@@ -5,7 +5,7 @@ public class AnyNetworkService<ResponceType: Decodable>: NetworkServicing {
     private let fetchModelClosure: (_ completion: @escaping (Result< ResponceType, Error>) -> Void) -> Void
 
     // MARK: - init
-    init<ServiceType: NetworkServicing>(_ service: ServiceType) where ServiceType.Responce == ResponceType {
+    public init<ServiceType: NetworkServicing>(_ service: ServiceType) where ServiceType.Responce == ResponceType {
         fetchListModelClosure = service.fetchListModel
         fetchModelClosure = service.fetchModel
     }

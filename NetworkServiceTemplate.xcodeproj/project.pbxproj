@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7967C0202950C14B00D2E949 /* NetworkServicing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7967C01E2950C14B00D2E949 /* NetworkServicing.swift */; };
-		7967C0212950C14B00D2E949 /* AnyNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7967C01F2950C14B00D2E949 /* AnyNetworkService.swift */; };
+		793D34D22950EF7D005B8547 /* AnyNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793D34D02950EF7D005B8547 /* AnyNetworkService.swift */; };
+		793D34D32950EF7D005B8547 /* NetworkServicing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793D34D12950EF7D005B8547 /* NetworkServicing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,9 +24,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		793D34D02950EF7D005B8547 /* AnyNetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyNetworkService.swift; sourceTree = "<group>"; };
+		793D34D12950EF7D005B8547 /* NetworkServicing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkServicing.swift; sourceTree = "<group>"; };
 		7967C00C2950C06700D2E949 /* libNetworkServiceTemplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNetworkServiceTemplate.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		7967C01E2950C14B00D2E949 /* NetworkServicing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkServicing.swift; sourceTree = "<group>"; };
-		7967C01F2950C14B00D2E949 /* AnyNetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyNetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,10 +40,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		793D34CF2950EF7D005B8547 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				793D34D02950EF7D005B8547 /* AnyNetworkService.swift */,
+				793D34D12950EF7D005B8547 /* NetworkServicing.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		7967C0032950C06700D2E949 = {
 			isa = PBXGroup;
 			children = (
-				7967C00E2950C06700D2E949 /* NetworkServiceTemplate */,
+				793D34CF2950EF7D005B8547 /* Sources */,
 				7967C00D2950C06700D2E949 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,15 +63,6 @@
 				7967C00C2950C06700D2E949 /* libNetworkServiceTemplate.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		7967C00E2950C06700D2E949 /* NetworkServiceTemplate */ = {
-			isa = PBXGroup;
-			children = (
-				7967C01F2950C14B00D2E949 /* AnyNetworkService.swift */,
-				7967C01E2950C14B00D2E949 /* NetworkServicing.swift */,
-			);
-			path = NetworkServiceTemplate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7967C0202950C14B00D2E949 /* NetworkServicing.swift in Sources */,
-				7967C0212950C14B00D2E949 /* AnyNetworkService.swift in Sources */,
+				793D34D22950EF7D005B8547 /* AnyNetworkService.swift in Sources */,
+				793D34D32950EF7D005B8547 /* NetworkServicing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
